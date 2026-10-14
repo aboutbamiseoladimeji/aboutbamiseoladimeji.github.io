@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website, CV, résumé, and social links.">
+  <title>Your Name — Your Professional Title</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" id="nav-name">YOUR NAME<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a>
+      <a href="#skills">Skills</a><a href="#documents">CV & Résumé</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" id="hero-eyebrow">HELLO, I'M</p>
+        <h1 id="hero-name">Your Name<span>.</span></h1>
+        <h2 id="hero-title">Your Professional Title</h2>
+        <p class="lead" id="hero-bio">A short introduction about you goes here. Tell visitors what you do, what you care about, and the value you bring.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="assets/resume.pdf" id="hero-resume" download>Download résumé ↓</a>
+          <a class="button button-light" href="#contact">Get in touch ↗</a>
+        </div>
+        <div class="hero-socials" id="hero-socials"></div>
+      </div>
+      <div class="portrait-frame">
+        <img id="profile-photo" src="assets/profile-placeholder.svg" alt="Profile portrait">
+        <span class="portrait-caption" id="portrait-caption">A LITTLE ABOUT ME</span>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about me.</h2></div>
+      <div class="section-content"><p id="about-text">Use this space to tell your story, share your background, interests, values, and goals.</p><div class="facts-grid" id="facts-grid"></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-heading"><p class="eyebrow">02 / EXPERIENCE</p><h2>Where I've worked.</h2></div>
+      <div class="section-content timeline" id="experience-list"></div>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><p class="eyebrow">03 / EDUCATION</p><h2>What I've learned.</h2></div>
+      <div class="section-content timeline" id="education-list"></div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">04 / SKILLS</p><h2>Things I bring to the table.</h2></div>
+      <div class="section-content"><div class="chips" id="skills-list"></div><div class="certifications"><h3>Certifications & training</h3><div id="certifications-list"></div></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="documents">
+      <div class="section-heading"><p class="eyebrow">05 / DOCUMENTS</p><h2>CV, résumé & more.</h2></div>
+      <div class="section-content"><p class="muted">Download a copy of my professional documents below.</p><div class="document-list" id="documents-list"></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <p class="eyebrow">06 / CONTACT</p><h2>Have something in mind?<br><span>Let's talk.</span></h2>
+        <p id="contact-copy">For opportunities, collaborations, or a friendly hello, get in touch.</p>
+        <a class="button button-white" id="contact-email" href="mailto:hello@example.com">Send me an email ↗</a>
+        <div class="contact-socials" id="contact-socials"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span id="footer-name">Your Name</span><span id="footer-note">Made with care.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="fallback.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

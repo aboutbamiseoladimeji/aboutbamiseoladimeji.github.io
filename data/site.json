@@ -1,0 +1,105 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "title": "Your Professional Title",
+    "intro": "I am a curious, motivated professional who enjoys solving problems, learning continuously, and creating meaningful work.",
+    "about": "Write a fuller biography here. Share your background, what motivates you, the kind of work you enjoy, and where you hope to go next.",
+    "email": "hello@example.com",
+    "photo": "assets/profile-placeholder.svg",
+    "photoCaption": "A LITTLE ABOUT ME",
+    "contactMessage": "For opportunities, collaborations, or a friendly hello, get in touch.",
+    "footerNote": "Made with care."
+  },
+  "facts": [
+    {
+      "label": "Based in",
+      "value": "Your City, Country"
+    },
+    {
+      "label": "Focus",
+      "value": "Your professional focus"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Your role / position",
+      "organization": "Company or organization",
+      "period": "20XX \u2014 Present",
+      "location": "City, Country",
+      "description": "Describe your responsibilities, impact, and achievements here."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Your qualification",
+      "institution": "School or institution",
+      "year": "20XX \u2014 20XX",
+      "description": "Add a short description or relevant achievement."
+    }
+  ],
+  "skills": [
+    "Skill one",
+    "Skill two",
+    "Skill three",
+    "Skill four"
+  ],
+  "certifications": [
+    {
+      "name": "Certification or course",
+      "issuer": "Issuing organization",
+      "year": "20XX"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "Instagram",
+      "label": "Instagram \u2197",
+      "url": "https://instagram.com/",
+      "enabled": true
+    },
+    {
+      "platform": "LinkedIn",
+      "label": "LinkedIn \u2197",
+      "url": "https://linkedin.com/",
+      "enabled": true
+    },
+    {
+      "platform": "X",
+      "label": "X \u2197",
+      "url": "https://x.com/",
+      "enabled": true
+    },
+    {
+      "platform": "Pinterest",
+      "label": "Pinterest \u2197",
+      "url": "https://pinterest.com/",
+      "enabled": true
+    },
+    {
+      "platform": "Behance",
+      "label": "Behance \u2197",
+      "url": "https://behance.net/",
+      "enabled": true
+    },
+    {
+      "platform": "Email",
+      "label": "Email \u2197",
+      "url": "mailto:hello@example.com",
+      "enabled": true
+    }
+  ],
+  "documents": [
+    {
+      "title": "Professional r\u00e9sum\u00e9",
+      "description": "PDF version of my r\u00e9sum\u00e9",
+      "url": "assets/resume.pdf",
+      "type": "resume"
+    },
+    {
+      "title": "Detailed CV",
+      "description": "A fuller record of my experience and qualifications",
+      "url": "assets/cv.pdf",
+      "type": "cv"
+    }
+  ]
+}

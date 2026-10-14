@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Site Admin</title><link rel="stylesheet" href="admin.css"></head>
+<body><main class="panel"><p class="eyebrow">PRIVATE AREA</p><h1>Website admin</h1><p class="muted">Sign in with Google to manage and publish your personal website. Admin publishing is not configured until you complete the setup steps in README.md.</p>
+<div id="signed-out"><button id="login" class="primary">Continue with Google</button></div>
+<div id="signed-in" hidden><p id="account"></p><label>Site content JSON<textarea id="content" rows="18" spellcheck="false"></textarea></label><div class="actions"><button id="load" class="secondary">Reload content</button><button id="publish" class="primary">Save & publish</button><button id="logout" class="secondary">Sign out</button></div><p id="status" role="status"></p><p class="muted small">This initial dashboard provides a JSON editor foundation. Secure Google login and publishing require the Supabase setup described in the README. Never paste a GitHub token into this page.</p></div>
+<a class="back" href="../">← View public website</a></main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="admin.js"></script></body></html>
